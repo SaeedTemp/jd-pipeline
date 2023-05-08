@@ -81,7 +81,7 @@ def app():
     
     if st.session_state["logged"] == None:
         with container.container():
-            st.title('Login')
+            st.title('The New Login')
     
             # Add form inputs for username and password
             username = st.text_input('Username')
