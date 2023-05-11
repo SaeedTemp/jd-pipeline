@@ -81,7 +81,7 @@ def app():
     
     if st.session_state["logged"] == None:
         with container.container():
-            st.title('The Login for ADmin')
+            st.title('Login')
     
             # Add form inputs for username and password
             username = st.text_input('Username')
